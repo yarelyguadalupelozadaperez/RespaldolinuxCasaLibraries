@@ -1,0 +1,34 @@
+<?php
+require_once ('adodb/adodb-exceptions.inc.php');
+require_once ('adodb/adodb.inc.php'); // Carga el codigo comun de ADOdb
+if (defined ( "ConnectionFactory" ))
+	return;
+define ( "ConnectionFactory", 1 );
+/**
+ * Connection Factory
+ *
+ * @category db
+ * @package Sistemascasa_CasaDb
+ * @subpackage Sistemascasa_CasaDb
+ * @copyright Copyright (c) 2007-2009 Sistemas CASA
+ *            (http://www.sistemascasa.com.mx)
+ */
+abstract class ConnectionFactory {
+	public static function ConnectDsos() {
+		$db = NewADOConnection ( 'mysql' );
+		$db->Connect ( "10.40.68.111", "usersos", "c454s0s", "dsos" );
+		return $db;
+	}
+	public static function ConnectCtraweb() {
+		$db = NewADOConnection ( 'mysql' );
+		$db->Connect ( "205.251.132.186", "casasql", "embeddedp@assprotect***", "admon_ctraweb" );
+		return $db;
+	}
+	jsantana = jimmi
+hsanchez = master     
+ccasarrubias = ccasarrubias
+ylozada = ylozada 
+jcruz = jcruz   
+smcamacho = smcamacho
+}
+?>

@@ -1,0 +1,5 @@
+ajazhiel = ajazhiel <Yarely.Perez@wisetechglobal.com>
+hdominguez  = hdominguez <Yarely.Perez@wisetechglobal.com>
+hsanchez=hsanchez <Hector.Guerrero@wisetechglobal.com>
+uvargas =uvargas <Ulises.Sanchez@wisetechglobal.com>
+ylozada = ylozada <Yarely.Perez@wisetechglobal.com>
